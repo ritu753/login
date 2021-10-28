@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+
+}
+.box h1{
+    color: red;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+#username{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    width: 200px;
+    color: beige;
+    border-radius: 8px;
+    transition: 0.25px;
+}
+#password{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    width: 200px;
+    color: beige;
+    border-radius: 8px;
+    transition: 0.25px;
+}
+#password :focus{
+    border-color: rgb(0, 0, 0,0.6);
+}
+#button{
+    background:rgba(134, 0, 139);
+    width: 80px;
+    height: 30px;
+    color:  black;
+    font-size: 18px;
+    padding: 0 20px;
+}
+#button:hover{
+    color: red;
+}
